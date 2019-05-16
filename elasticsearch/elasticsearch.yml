@@ -1,0 +1,9 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+# Require explicit names when deleting indices:
+#
+# action.destructive_requires_name: true
+# ***********************************************
+# Shared repo
+#path.repo: ["/mount/backups", "/mount/longterm_backups"]
+path.repo: ["/home/elasticsearch-backup"]
