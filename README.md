@@ -35,6 +35,7 @@ Then configure the _sysctl_ setting:
 sysctl -w vm.max_map_count=262144
 ```
 Exit by _cntr-a_ _cntr-\/_ commands
+
 **Note** for Mac OS user you will need to change docker memory allocation to `4-8Gib`
 
 ## Usage
